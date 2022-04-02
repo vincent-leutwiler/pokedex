@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+main {
+  background: #ffc600;
+  background: linear-gradient(to right, #d4d3dd, #ffc600);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  padding: 0 auto;
+}
+
+.poke-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.pokemon {
+  background-color: #eee;
+  border-radius: 20px;
+  border: transparent 3px solid;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pokemon:hover {
+  border: solid 3px darkgreen;
+}
+
+h3::first-letter {
+  text-transform: capitalize;
+}
